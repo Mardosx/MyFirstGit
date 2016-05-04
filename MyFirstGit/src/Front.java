@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 public class Front extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
+	private JTextField txt_inout;
 
 	/**
 	 * Launch the application.
@@ -39,17 +39,17 @@ public class Front extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(34, 199, 89, 23);
-		contentPane.add(btnNewButton);
+		JButton btn_plus5 = new JButton("+ 5");
+		btn_plus5.setBounds(34, 199, 89, 23);
+		contentPane.add(btn_plus5);
 		
-		JButton btnNewButton_1 = new JButton("New button");
-		btnNewButton_1.setBounds(278, 199, 89, 23);
-		contentPane.add(btnNewButton_1);
+		JButton btn_plus10 = new JButton("+ 10");
+		btn_plus10.setBounds(278, 199, 89, 23);
+		contentPane.add(btn_plus10);
 		
-		textField = new JTextField();
-		textField.setBounds(34, 66, 333, 20);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		txt_inout = new JTextField();
+		txt_inout.setBounds(34, 66, 333, 20);
+		contentPane.add(txt_inout);
+		txt_inout.setColumns(10);
 	}
 }
